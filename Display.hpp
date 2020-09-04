@@ -1,5 +1,5 @@
-#ifndef _SCREEN_H
-#define _SCREEN_H
+#ifndef _DISPLAY_H
+#define _DISPLAY_H
 
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
