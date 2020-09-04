@@ -28,7 +28,7 @@ static sf::Uint8 HEXDIGITS[16][5] = {
     {0xF0, 0x80, 0xF0, 0x80, 0x80},
 };
 
-class Screen
+class Display
 {
     unsigned int width;
     unsigned int height;
@@ -42,15 +42,20 @@ class Screen
     sf::Mutex pixels_mutex;
 
 public:
-    Screen(unsigned int w, unsigned int h, std::string winame = "CHIP-8");
+    Display(unsigned int w, unsigned int h, std::string winame = "CHIP-8");
+    ~Display();
 
     void updateBuffer(std::vector<bool> buffer);
+
+    void drawSprite(uint8_t *sprite, uint8_t height, uint8_t x, uint8_t y);
 
     void poll();
 
     void startDisplayLoop();
 
     static void *poll_wrapper(void *object);
+
+    bool isOpen();
 };
 
 #endif

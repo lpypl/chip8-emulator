@@ -1,4 +1,4 @@
 all :
 
-sfml : Screen.hpp Sfml.cpp
-	g++ Sfml.cpp -lsfml-graphics -lsfml-window -lsfml-system -lpthread
+sfml : Display.cpp Display.hpp Sfml.cpp
+	g++ Sfml.cpp Display.cpp -lsfml-graphics -lsfml-window -lsfml-system
