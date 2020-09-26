@@ -9,7 +9,7 @@
 
 const unsigned int channels = 4;
 
-static sf::Uint8 HEXDIGITS[16][5] = {
+static uint8_t HEXDIGITS[16][5] = {
     {0xF0, 0x90, 0x90, 0x90, 0xF0},
     {0x20, 0x60, 0x20, 0x20, 0x70},
     {0xF0, 0x10, 0xF0, 0x80, 0xF0},
@@ -47,7 +47,11 @@ public:
 
     void updateBuffer(std::vector<bool> buffer);
 
+    void clearDisplay();
+
     void drawSprite(uint8_t *sprite, uint8_t height, uint8_t x, uint8_t y);
+
+    bool drawSpriteXor(uint8_t *spriteBuffer, uint8_t spriteHeight, uint8_t baseX, uint8_t baseY);
 
     void poll();
 

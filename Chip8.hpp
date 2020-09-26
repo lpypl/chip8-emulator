@@ -5,6 +5,7 @@
 #include <cstring>
 #include <cstdlib>
 #include <ctime>
+#include "Display.hpp"
 
 typedef uint8_t byte;
 typedef uint16_t dbyte;
@@ -16,16 +17,30 @@ private:
     byte v[16];
     // register i
     dbyte i;
+    // Timer & Mutex
     byte delayTimer, soundTimer;
+    const int delayTimerFreq = 120;
+    const int soundTimerFreq = 120;
+    const int chipFreq = 120;
+    sf::Mutex delayTimerMutex, soundTimerMutex;
+    sf::Thread *delayTimerThread, *soundTimerThread;
+    void delayTimerPoll(), soundTimerPoll();
+    static void *delayTimerPollWrapper(void *object), *soundTimerPollWrapper(void *object);
+
     dbyte pc;
     byte sp;
     dbyte stack[16];
     byte memory[4096];
 
+    // Display Module
+    const uint8_t SCREEN_WIDTH = 64, SCREEN_HEIGHT = 32;
+    Display screen;
+
     inline dbyte readOpcode()
     {
-        dbyte opcode = memory[pc] << 8 | memory[pc + 1];
+        dbyte opcode = (memory[pc] << 8) | memory[pc + 1];
         pc += 2;
+	    return opcode;
     }
 
     inline dbyte getAddr(dbyte opcode)
@@ -50,12 +65,21 @@ private:
         return 0x000f & (opcode >> 4);
     }
 
+    //???n
+    inline byte getN(dbyte opcode)
+    {
+        return 0x000f & (opcode >> 0);
+    }
+
 public:
     Chip8();
     
-    void run();
+    void run(const char *fname);
 
     void reset();
+
+    void setDelayTimer(const byte value), setSoundTimer(const byte value);
+    byte getDelayTimer(), getSoundTimer();
 };
 
 #endif

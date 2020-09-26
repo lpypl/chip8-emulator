@@ -1,0 +1,611 @@
+Executing...
+Current instruction is: 0200 - 00e0
+[CASE 0]
+Current instruction is: 0202 - 6c00
+Current instruction is: 0204 - 4c00
+Current instruction is: 0206 - 6e0f
+Current instruction is: 0208 - a203
+Current instruction is: 020a - 6020
+Current instruction is: 020c - f055
+Current instruction is: 020e - 00e0
+[CASE 0]
+Current instruction is: 0210 - 22be
+Current instruction is: 02be - 3c00
+Current instruction is: 02c2 - 221c
+Current instruction is: 021c - 6100
+Current instruction is: 021e - 6217
+Current instruction is: 0220 - 6304
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0005 * 5, loc is (23, 04), content is 0020
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 000a * 5, loc is (28, 04), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 000f * 5, loc is (33, 04), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0014 * 5, loc is (38, 04), content is 0090
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 0240 - 6217
+Current instruction is: 0242 - 7306
+Current instruction is: 0244 - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0019 * 5, loc is (23, 10), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 001e * 5, loc is (28, 10), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0023 * 5, loc is (33, 10), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0028 * 5, loc is (38, 10), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 0240 - 6217
+Current instruction is: 0242 - 7306
+Current instruction is: 0244 - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 002d * 5, loc is (23, 16), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0032 * 5, loc is (28, 16), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0037 * 5, loc is (33, 16), content is 00e0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 003c * 5, loc is (38, 16), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 0240 - 6217
+Current instruction is: 0242 - 7306
+Current instruction is: 0244 - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0041 * 5, loc is (23, 22), content is 00e0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 0046 * 5, loc is (28, 22), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 0230 - f029
+Current instruction is: 0232 - d235
+[CASE D]: painting..., sprite addr is 004b * 5, loc is (33, 22), content is 00f0
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 023e - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0226 - a2e8
+Current instruction is: 0228 - f11e
+Current instruction is: 022a - f065
+Current instruction is: 022c - 4000
+Current instruction is: 022e - 1234
+[CASE 1]
+Jump to 0234, content is 7101
+Current instruction is: 0234 - 7101
+Current instruction is: 0236 - 7205
+Current instruction is: 0238 - 6403
+Current instruction is: 023a - 8412
+Current instruction is: 023c - 3400
+Current instruction is: 0240 - 6217
+Current instruction is: 0242 - 7306
+Current instruction is: 0244 - 1222
+[CASE 1]
+Jump to 0222, content is 4110
+Current instruction is: 0222 - 4110
+Current instruction is: 0224 - 00ee
+[CASE 0]
+Current instruction is: 02c4 - 22d8
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de - ed9e
+Current instruction is: 02e0 - 12d8
+[CASE 1]
+Jump to 02d8, content is 7d01
+Current instruction is: 02d8 - 7d01
+Current instruction is: 02da - 600f
+Current instruction is: 02dc - 8d02
+Current instruction is: 02de
