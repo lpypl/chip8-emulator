@@ -1,7 +1,8 @@
 #include "Display.hpp"
+#include "TimeUtils.hpp"
 
 Display::Display(unsigned int w, unsigned int h, std::string winame)
-    : width(w), height(h), window(sf::VideoMode(width, height), winame)
+    : width(w), height(h), window(sf::VideoMode(width, height), winame), keyPressedTime(0), pressedKey(KEY0)
 {
     pixels = new sf::Uint8[width * height * channels]{0};
     texture.create(width, height);
@@ -84,6 +85,79 @@ void Display::poll()
         {
             if (event.type == sf::Event::Closed)
                 window.close();
+            else if (event.type == sf::Event::KeyPressed)
+            {
+                switch (event.key.code)
+                {
+                case sf::Keyboard::Num1:
+                    pressedKey = KEY1;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::Num2:
+                    pressedKey = KEY2;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::Num3:
+                    pressedKey = KEY3;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::Num4:
+                    pressedKey = KEYC;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::Q:
+                    pressedKey = KEY4;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::W:
+                    pressedKey = KEY5;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::E:
+                    pressedKey = KEY6;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::R:
+                    pressedKey = KEYD;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::A:
+                    pressedKey = KEY7;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::S:
+                    pressedKey = KEY8;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::D:
+                    pressedKey = KEY9;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::F:
+                    pressedKey = KEYE;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::Z:
+                    pressedKey = KEYA;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::X:
+                    pressedKey = KEY0;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::C:
+                    pressedKey = KEYB;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                case sf::Keyboard::V:
+                    pressedKey = KEYF;
+                    keyPressedTime = getMillTimeStamp();
+                    break;
+                default:
+                    break;
+                }
+                printf("[KEY] keycode=%d, time=%ld\n", pressedKey, keyPressedTime);
+            }
         }
 
         pixels_mutex.lock();

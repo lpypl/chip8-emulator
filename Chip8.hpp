@@ -19,9 +19,9 @@ private:
     dbyte i;
     // Timer & Mutex
     byte delayTimer, soundTimer;
-    const int delayTimerFreq = 120;
-    const int soundTimerFreq = 120;
-    const int chipFreq = 120;
+    const int delayTimerFreq = 60;
+    const int soundTimerFreq = 60;
+    const int chipFreq = 500;
     sf::Mutex delayTimerMutex, soundTimerMutex;
     sf::Thread *delayTimerThread, *soundTimerThread;
     void delayTimerPoll(), soundTimerPoll();

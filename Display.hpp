@@ -28,6 +28,26 @@ static uint8_t HEXDIGITS[16][5] = {
     {0xF0, 0x80, 0xF0, 0x80, 0x80},
 };
 
+enum CHIP8KEY
+{
+    KEY0,
+    KEY1,
+    KEY2,
+    KEY3,
+    KEY4,
+    KEY5,
+    KEY6,
+    KEY7,
+    KEY8,
+    KEY9,
+    KEYA,
+    KEYB,
+    KEYC,
+    KEYD,
+    KEYE,
+    KEYF,
+};
+
 class Display
 {
     unsigned int width;
@@ -42,6 +62,9 @@ class Display
     sf::Mutex pixels_mutex;
 
 public:
+    time_t keyPressedTime;
+    CHIP8KEY pressedKey;
+
     Display(unsigned int w, unsigned int h, std::string winame = "CHIP-8");
     ~Display();
 
@@ -51,7 +74,8 @@ public:
 
     void drawSprite(uint8_t *sprite, uint8_t height, uint8_t x, uint8_t y);
 
-    bool drawSpriteXor(uint8_t *spriteBuffer, uint8_t spriteHeight, uint8_t baseX, uint8_t baseY);
+    bool drawSpriteXor(uint8_t *spriteBuffer, uint8_t spriteHeight,
+                       uint8_t baseX, uint8_t baseY);
 
     void poll();
 

@@ -1,4 +1,6 @@
 #include "Chip8.hpp"
+#include <stdlib.h>
+#include "TimeUtils.hpp"
 
 unsigned char chip8_fontset[80] =
     {
@@ -119,7 +121,7 @@ void Chip8::run(const char *fname)
 
         printf("Current instruction is: %.04x - %.4x\n", pc - 2, opcode);
 
-        sf::sleep(sf::milliseconds(1000 / chipFreq));
+        sf::sleep(sf::microseconds(1000000 / chipFreq));
 
         switch ((opcode >> 12) & 0x000f)
         {
@@ -286,16 +288,18 @@ void Chip8::run(const char *fname)
             {
             case 0x9E:
             {
+                printf("[KETTEST]");
+                
                 //todo
-                // if (getX(opcode) == xxx)
-                //
+                if (v[getX(opcode)] == screen.pressedKey && getMillTimeStamp() - screen.keyPressedTime < 300)
+                    this->pc += 2;
                 break;
             }
             case 0xA1:
             {
                 //todo
-                // if (getX(opcode) != xxx)
-                this->pc += 2;
+                if (v[getX(opcode)] != screen.pressedKey || getMillTimeStamp() - screen.keyPressedTime > 300)
+                    this->pc += 2;
                 break;
             }
             }
@@ -316,8 +320,10 @@ void Chip8::run(const char *fname)
                 // waiting a key
                 // All execution stops until a key is pressed, then the value of that key is stored in Vx.
                 //
-                for (;;)
-                    ;
+                while (getMillTimeStamp() - screen.keyPressedTime < 300)
+                {
+                    v[getX(opcode)] = screen.pressedKey;
+                }
                 break;
             }
             case 0x15:
@@ -347,6 +353,8 @@ void Chip8::run(const char *fname)
                 memory[i + 0] = v[getX(opcode)] / 100;
                 memory[i + 1] = v[getX(opcode)] % 100 / 10;
                 memory[i + 2] = v[getX(opcode)] % 100 % 10;
+                printf("[BCD] %.4x -> %d-%d-%d\n", v[getX(opcode)],
+                       memory[i + 0], memory[i + 1], memory[i + 2]);
                 break;
             }
             case 0x55:
@@ -383,9 +391,9 @@ void Chip8::setDelayTimer(const byte value)
 
 byte Chip8::getDelayTimer()
 {
-    delayTimerMutex.lock();
+    // delayTimerMutex.lock();
     byte value = delayTimer;
-    delayTimerMutex.unlock();
+    // delayTimerMutex.unlock();
     return value;
 }
 
@@ -411,9 +419,9 @@ void Chip8::delayTimerPoll()
         sf::sleep(sf::milliseconds(1000 / delayTimerFreq));
         if (delayTimer != 0)
         {
-            delayTimerMutex.lock();
+            // delayTimerMutex.lock();
             delayTimer--;
-            delayTimerMutex.unlock();
+            // delayTimerMutex.unlock();
         }
     }
 }
@@ -434,6 +442,7 @@ void Chip8::soundTimerPoll()
             soundTimerMutex.lock();
             soundTimer--;
             soundTimerMutex.unlock();
+            system("(speaker-test -t sine -f 1000)& pid=$!; sleep 0.025s; kill -9 $pid");
         }
     }
 }
